@@ -126,7 +126,7 @@ export const Register = () => {
             />
             <span />
             <label>
-              Enter the password
+              Confirm password
               {formik.errors.confirmPassword && formik.touched.confirmPassword && (
                 <span className='text-danger ml-3'>{formik.errors.confirmPassword}</span>
               )}
